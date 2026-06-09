@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssiutHotel - Signup</title>
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <img src="../image/logo.png" class="logo">
+
+            <h1><span>Assiut</span> Hotel</h1>
+            <p>Join us and unlock premium comfort,<br>Assiut stays, and exclusive offers.</p>
+        </div> <!-- left -->
+
+        <div class="right">
+
+            <h2>Create Account</h2>
+            <input id="name" type="text" placeholder="Full Name">
+            <input id="email" type="email" placeholder="Email">
+
+            <div class="pass-wrapper">
+                <input id="pass" type="password" placeholder="Password">
+                <span class="toggle" onclick="togglePass('pass')">Show</span>
+            </div> <!-- pass-wrapper -->
+
+            <div class="pass-wrapper">
+                <input id="confirm" type="password" placeholder="Confirm Password">
+                <span class="toggle" onclick="togglePass('confirm')">Show</span>
+            </div>
+
+            <div class="hint" id="hint"></div>
+
+            <button onclick="signup()">Sign Up</button>
+
+            <a href="../index.html">Already have an account? Login</a>
+
+        </div> <!-- right -->
+    </div> <!-- container -->
+
+
+    <script src="../main.js"></script>
+
+</body>
+</html>

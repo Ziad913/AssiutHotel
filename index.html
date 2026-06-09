@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssiutHotel - Login</title>
+
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <section class="log-in">
+        <div class="container">
+            <div class="left">
+                <img src="image/logo.png" class="logo">
+                <h1><span>Assiut</span> Hotel</h1>
+                <p>
+                    Experience comfort, elegance and world-class hospitality.<br>
+                    Your journey starts here.
+                </p>
+            </div> <div class="right">
+                <h2>Welcome Back</h2>
+                <input id="eChek" type="email" placeholder="Email">
+                <input id="passChek" type="password" placeholder="Password">
+
+                <div class="hint" id="hint"></div>
+
+                <button onclick="checkInUsers()">Login</button>
+                <a href="#">Forgot Password?</a>
+                <button class="signup-btn" onclick="window.location.href='./page/register.html'">Create Account</button>
+                
+                <button class="skip-btn" onclick="window.location.href='page/home.html'">Skip</button>
+            </div>
+        </div> 
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
